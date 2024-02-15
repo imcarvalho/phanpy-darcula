@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           phanpy.social - Feb 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Darcula with pink and purple tones for Phanpy
+@author         https://github.com/imcarvalho 
+==/UserStyle== */
+
+@-moz-document domain("phanpy.social") {
+    @media (prefers-color-scheme: dark) {
+      :root:where(:not(.is-light)) {
+        --link-visited-color: #E65DA960;
+        --link-faded-color: #E65DA950;
+        --link-color: #E65DA9;
+        --reblog-color: #E65DA9;
+        --reblog-faded-color: #BD93F950;
+        --bg-color: #282A36;
+        --button-bg-color: #E65DA950;
+        --button-bg-blur-color: #E65DA9;
+       }
+    }
+}
